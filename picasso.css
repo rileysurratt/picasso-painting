@@ -1,3 +1,4 @@
+/* styling for boxes */
 h1{
     font-size: 50px;
     text-align: center;
@@ -45,8 +46,47 @@ h1{
     background-color: #459599;
 }
 
+.triangles {
+    justify-content: right;
+}
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    
+    border-bottom: 100px solid #065535;
+  }
+
 .skinny-box {
     /* border: 5px solid orange; */
     height: 20px;
     background-color: #BADA55;
+}
+
+
+/* styling for form */
+
+.header-form{
+    margin-left: 28px;
+    font-size: 20px;
+}
+
+.form-container {
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+}
+
+.last-name {
+    padding-left: 12px;
+}
+
+.user-email {
+    padding-left: 12px;
+}
+
+.submit-button {
+    margin-left: 30px;
 }

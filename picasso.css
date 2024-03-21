@@ -1,0 +1,52 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.sub-text{
+    text-align: right;
+    padding-right: 5vw;
+}
+
+/* .artwork{
+    height: 50%;
+    width: 60%;
+} */
+
+.art-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 15px;
+    row-gap: 7px;
+    justify-content: stretch;
+    column-gap: 15px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.small-box{
+    /* border: 5px solid blue; */
+    height: 150px;
+    background-color: #459599;
+}
+
+.bottom-section {
+    display: grid;
+    row-gap: 15px;
+    grid-template-rows: auto auto;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+.big-box{
+    /* border: 5px solid blueviolet; */
+    height: 380px;
+    background-color: #459599;
+}
+
+.skinny-box {
+    /* border: 5px solid orange; */
+    height: 20px;
+    background-color: #BADA55;
+}

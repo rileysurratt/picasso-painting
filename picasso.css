@@ -113,9 +113,29 @@ h1{
     width: 40px;
     background-color: #ffe599;
     border-radius: 50%;
-    
+    left: 300px;
+    top: 350px;
 }
 
+.circle-five {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: #fa8072;
+    border-radius: 50%;
+    left: 530px;
+    top: 220px;
+}
+
+.circle-six {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    background-color: #fa8072;
+    border-radius: 50%;
+    left: 640px;
+    top: 150px;
+}
 
 
 

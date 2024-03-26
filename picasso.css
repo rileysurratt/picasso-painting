@@ -46,22 +46,58 @@ h1{
     background-color: #459599;
 }
 
-/* shapes  */
-.triangles {
-    justify-content: right;
-    position: fixed;
-    width: 0; 
-    height: 0; 
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 200px solid #065535;
-
-}
 .skinny-box {
     /* border: 5px solid orange; */
     height: 20px;
     background-color: #BADA55;
 }
+
+/* shapes  */
+.triangle1 {
+    /* justify-content: right; */
+    position: fixed;
+    /* float: right; */
+    right: 230px;
+    bottom: 155px;
+    width: 0; 
+    height: 0; 
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 500px solid #065535;
+}
+
+.triangle2 {
+    position: fixed;
+    right: 50px;
+    bottom: 155px;
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 400px solid #8fce00;
+}
+
+.circle-one {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    background-color: #fa8072;
+    border-radius: 50%;
+    left: 90px;
+    top: 246px;
+}
+
+.circle-two {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    background-color: #fa8072;
+    border-radius: 50%;
+    left: 90px;
+    top: 160px;
+}
+
+
 
 
 /* styling for form */

@@ -83,7 +83,7 @@ h1{
     width: 40px;
     background-color: #fa8072;
     border-radius: 50%;
-    left: 90px;
+    left: 96px;
     top: 246px;
 }
 
@@ -94,7 +94,26 @@ h1{
     background-color: #fa8072;
     border-radius: 50%;
     left: 90px;
-    top: 160px;
+    top: 130px;
+}
+
+.circle-three {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    background-color: #ffe599;
+    border-radius: 50%;
+    left: 380px;
+    top: 150px;
+}
+
+.circle-four {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    background-color: #ffe599;
+    border-radius: 50%;
+    
 }
 
 
